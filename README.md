@@ -19,7 +19,7 @@ Unzip the downloaded file to your Desktop or any folder
 2. Install Dependencies
 Your project uses multiple components and technologies, each with its own dependencies. Here's how to install them.
 
-A. Python Dependencies (for generate.py)
+ A. Python Dependencies (for generate.py)
 This script needs the Kafka Python client:
 In Terminal, install:
 bash
@@ -28,7 +28,7 @@ Edit
 pip3 install kafka-python
 This lets generate.py send events to Kafka.
 
-B. Apache Spark Dependencies (for app.py)
+ B. Apache Spark Dependencies (for app.py)
 Spark is run inside a Docker container (Bitnami Spark image), which comes pre-installed with:
 PySpark
 Required libraries for structured streaming
@@ -38,7 +38,7 @@ Copy
 Edit
 brew install apache-spark
 
-C. Docker Services (for the rest of the stack)
+ C. Docker Services (for the rest of the stack)
 Docker handles all services (Kafka, Spark, ClickHouse, Grafana), so you don’t need to install these separately.
 You just need to install:
 Docker Desktop:
