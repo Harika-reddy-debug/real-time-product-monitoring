@@ -1,5 +1,6 @@
 Real-Time Product Event Monitoring Pipeline
 ====================================================
+
 What does this program do?
 This project simulates real-time product interaction events (like "view", "add to cart", "purchase") and processes them using Kafka, Spark Structured Streaming, ClickHouse, and Grafana, all orchestrated with Docker Compose. It is ideal for real-time analytics use cases in e-commerce or product behavior tracking.
 
