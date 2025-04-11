@@ -4,7 +4,7 @@ What does this program do?
 This project simulates real-time product interaction events (like "view", "add to cart", "purchase") and processes them using Kafka, Spark Structured Streaming, ClickHouse, and Grafana, all orchestrated with Docker Compose. It is ideal for real-time analytics use cases in e-commerce or product behavior tracking.
 
 ---
-Prerequisites
+Prerequisites:
 Docker Desktop installed and running on your machine
 Download Docker for Mac/Windows
 
@@ -89,4 +89,4 @@ View dashboards to monitor product activity in real-time
 
 👏 Credits
 
-Built by **Harika Kuruba**
+Built by Harika Kuruba
