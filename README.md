@@ -88,9 +88,6 @@ Open Grafana → select the ClickHouse data source
 View dashboards to monitor product activity in real-time
 
 
-👏 Credits
-
-Built by Harika Kuruba
 
 
 
